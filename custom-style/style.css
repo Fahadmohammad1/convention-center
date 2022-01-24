@@ -6,6 +6,12 @@
 body {
   font-family: "Poppins", sans-serif;
 }
-.background-opacity {
-  opacity: 0.6;
+.banner-img1 {
+  background-image: url("images/banner-1.png");
+}
+.banner-img2 {
+  background-image: url("images/banner-2.png");
+}
+.banner-img3 {
+  background-image: url("images/banner-3.png");
 }
