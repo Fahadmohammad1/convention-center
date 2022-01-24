@@ -544,6 +544,40 @@
       <!-- ===========================
           frequently asked question end
         =============================== -->
+      <!-- =================
+          toast section
+        ====================== -->
+      <section class="container mb-5">
+        <button type="button" class="btn btn-primary" id="liveToastBtn">
+          Click to chat
+        </button>
+
+        <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11">
+          <div
+            id="liveToast"
+            class="toast toast show"
+            role="alert"
+            aria-live="assertive"
+            aria-atomic="true"
+          >
+            <div class="toast-header">
+              <img src="..." class="rounded me-2" alt="..." />
+              <strong class="me-auto">Lifevents</strong>
+              <small>11 mins ago</small>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="toast"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="toast-body">Hello, click here to chat</div>
+          </div>
+        </div>
+      </section>
+      <!-- =============
+      tost section end
+    ==================== -->
     </main>
     <!-- ============== 
          footer start
